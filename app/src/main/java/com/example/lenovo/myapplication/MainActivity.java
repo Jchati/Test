@@ -11,9 +11,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Log.i("yay", "hij werkt");
-        boolean hasMergeConflict = true;
-        if (hasMergeConflict) Log.i("noo", "fuck");
-        String[] hello = {"Hello", "WORLD!!!"};
+        for (int i = 0; i < 10; i++) {
+            Log.e("gaat fout", "o shit waddup");
+        }
     }
 }
