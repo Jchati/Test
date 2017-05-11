@@ -17,5 +17,8 @@ public class MainActivity extends AppCompatActivity {
         for (int i = 0; i < 10; i++) {
             System.out.println("Hello WOrLD!!");
         }
+        for (int i = 0; i < 10; i++) {
+            Log.e("gaat fout", "o shit waddup");
+        }
     }
 }
