@@ -1,8 +1,11 @@
 package com.example.lenovo.myapplication;
 
+import android.content.SyncStatusObserver;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+
+import java.sql.SQLOutput;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -11,9 +14,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Log.i("yay", "hij werkt");
-        boolean hasMergeConflict = true;
-        if (hasMergeConflict) Log.i("noo", "fuck");
-        String[] hello = {"Hello", "WORLD!!!"};
+        for (int i = 0; i < 10; i++) {
+            System.out.println("Hello WOrLD!!");
+        }
     }
 }
