@@ -14,5 +14,6 @@ public class MainActivity extends AppCompatActivity {
         Log.i("yay", "hij werkt");
         boolean hasMergeConflict = true;
         if (hasMergeConflict) Log.i("noo", "fuck");
+        String[] hello = {"Hello", "WORLD!!!"};
     }
 }
